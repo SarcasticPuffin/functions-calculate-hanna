@@ -1,6 +1,10 @@
+"use strict"
 // Skriv "use strict" herunder
 
 function beregnSum(number1, number2) {
+    const result = number1 + number2;
+    console.log(`summen er ${result}`);
+
     // Funktionen skal beregne summen af de to tal og udskrive resultatet i konsollen, fx: "Summen af 15 og 27 er 42"
 
 }
@@ -11,3 +15,5 @@ function beregnSum(number1, number2) {
 
 
 // Kald begge funktioner herunder med to selvvalgte tal, så du selv kan se i konsollen, om dine funktioner virker
+beregnSum(5,10);
+beregnSum(10,15)
